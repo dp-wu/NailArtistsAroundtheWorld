@@ -84,7 +84,10 @@ FOLLOWER_MIN=follower_restrictions
 }
 ```
 - Non-technical collaborators can safely edit this file without touching Python code.
-### Usage
+
+---
+
+## Usage
 1. Open the notebook:
 `notebooks/01_search_instagram_serp.ipynb`
 2. Run through the cells:
@@ -108,7 +111,10 @@ all_cities = [city for cities in city_data["all_cities"].values() for city in ci
 # Or just use the priority list
 top_cities = city_data["top_cities"]
 ```
-### Notes
+
+---
+
+## Notes
 1. Be mindful of API quotas: free tier allows 100 queries/day. 
 2. Each query returns up to 10 results. To fetch multiple pages, set PAGES=2 or higher in .env or code. 
 3. Google snippets don’t always contain follower counts. Some rows may have None.
