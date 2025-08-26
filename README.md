@@ -22,15 +22,23 @@ site:instagram.com HAIRSTYLE KOREA
 
 ## Project Structure
 ```yaml
-├── notebooks/
-│   └── 01_search_instagram_serp.ipynb   # Jupyter Notebook (PyCharm Pro)
-├── src/
-│   └── serp_cse.py                      # Helper functions
-├── cities.json                          # Cities grouped by continent + top cities
-├── requirements.txt                     # Python dependencies
-├── .env.example                         # Template for secrets
-├── .gitignore
-└── README.md
+├── .env                        # Environment variables (API keys, configs)
+├── .gitignore                  # Git ignore rules
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+├── artist_list.ipynb           # Main Jupyter notebook
+│
+├── data/                       # Data folder (for raw/processed data)
+│   └── models/                 # Trained/stored models
+│
+├── queries/                    # JSON configuration files for building queries
+│   ├── cities.json             # Cities (by continent) + top cities
+│   ├── keywords.json           # Keywords
+│   ├── patterns.json           # Regex patterns for parsing snippets
+│   ├── sites.json              # Sites/domain
+│   └── views.json              # Other filtering ways
+│
+└── Out/                        # Output folder (results, exports)
 ```
 
 ---
