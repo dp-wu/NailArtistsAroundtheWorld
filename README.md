@@ -87,11 +87,11 @@ FOLLOWER_MIN=follower_restrictions
 3. Filter results (e.g., accounts with ≥2000 followers). 
 4. Export to out/filtered.csv and out/filtered.json.
 5. Example code (loading cities):
+
 ```python
 import json
 
-
-with open("cities.json", "r", encoding="utf-8") as f:
+with open("queries/cities.json", "r", encoding="utf-8") as f:
     city_data = json.load(f)
 
 # Flatten all continents into one list

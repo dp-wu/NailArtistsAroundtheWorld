@@ -2384,3 +2384,7 @@ coverage*[.json, .xml, .info]
 
 # Ionide (cross platform F# VS Code tools) working folder
 
+
+# Keep queries for the search private too
+queries/*.json
+!queries/cities.json
