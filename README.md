@@ -44,7 +44,6 @@ site:instagram.com HAIRSTYLE KOREA
 ---
 
 ## Setup
-
 ### 1. Python environment
 - Open the project in **PyCharm Pro**.
 - Create a new virtual environment (Python 3.11+).
