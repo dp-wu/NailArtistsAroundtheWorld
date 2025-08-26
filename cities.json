@@ -1,0 +1,86 @@
+{
+  "all_major_cities": {
+    "North America": [
+      "New York",
+      "Los Angeles",
+      "Chicago",
+      "Toronto",
+      "Vancouver",
+      "Mexico City",
+      "Miami",
+      "San Francisco",
+      "Houston",
+      "Washington D.C."
+    ],
+    "South America": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Buenos Aires",
+      "Santiago",
+      "Lima",
+      "Bogotá"
+    ],
+    "Europe": [
+      "London",
+      "Paris",
+      "Berlin",
+      "Madrid",
+      "Rome",
+      "Milan",
+      "Barcelona",
+      "Amsterdam",
+      "Vienna",
+      "Zurich",
+      "Warsaw",
+      "Prague"
+    ],
+    "Asia": [
+      "Tokyo",
+      "Osaka",
+      "Kyoto",
+      "Seoul",
+      "Busan",
+      "Shanghai",
+      "Beijing",
+      "Hong Kong",
+      "Taipei",
+      "Singapore",
+      "Bangkok",
+      "Kuala Lumpur",
+      "Manila",
+      "Jakarta",
+      "New Delhi",
+      "Mumbai",
+      "Dubai",
+      "Abu Dhabi"
+    ],
+    "Africa": [
+      "Cairo",
+      "Lagos",
+      "Nairobi",
+      "Johannesburg",
+      "Cape Town",
+      "Casablanca"
+    ],
+    "Oceania": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane",
+      "Auckland",
+      "Wellington"
+    ]
+  },
+  "top_major_cities": [
+    "Tokyo",
+    "Osaka",
+    "Seoul",
+    "Shanghai",
+    "Hong Kong",
+    "Singapore",
+    "Bangkok",
+    "New York",
+    "Los Angeles",
+    "Paris",
+    "London"
+  ]
+}
